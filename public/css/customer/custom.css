@@ -1,0 +1,75 @@
+.item-image,
+.item-small-image,
+.item-tiny-image,
+.item-large-image {
+    max-height: 300px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.item-image img,
+.preview-image img {
+    width: auto;
+    height: auto;
+    /* object-fit: cover; */
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.item-small-image {
+    height: 150px;
+}
+
+.item-tiny-image {
+    height: 100px;
+}
+
+.item-large-image {
+    height: 700px;
+}
+
+.items-table div {
+    padding: 6px;
+}
+
+.card .card-link {
+    text-decoration: underline;
+    font-size: 0.8em;
+}
+
+.object-fit-cover {
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 992px) {
+    .item-large-image {
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .item-large-image {
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .item-large-image {
+        height: 300px;
+    }
+}
+
+.nav-cart-button.btn.btn-warning {
+    color: #fff;
+    background-color: #ff822a;
+    border-color: #ff822a;
+}
+
+.nav-cart-button.btn.btn-warning:hover > span {
+    /* color: #181C32; */
+    color: #ff822a;
+}
+.header-menu .menu-nav > .menu-item.menu-item-here > .menu-link {
+    background-color: gray !important;
+}

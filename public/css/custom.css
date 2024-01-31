@@ -1,0 +1,105 @@
+.item-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 300px;
+    flex-grow: 1;
+}
+
+.item-image {
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.item-card img,
+.preview-image img {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.item-card .item-card-body {
+    padding: 10px 16px;
+}
+
+.item-buttons {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    padding-left: 0.5rem;
+}
+
+.item-buttons button {
+    border-radius: 100%;
+}
+
+.item-buttons button i {
+    padding: 0 !important;
+}
+
+.item-card.selected {
+    box-shadow: 0 4px 8px 0 #ffb580, 0 6px 20px #ffc499;
+    border: 1px solid #ffa666;
+}
+
+.products-completion {
+    color: red;
+}
+
+.products-completion.completed {
+    color: #00cc00;
+}
+
+.products-section {
+    height: 700px;
+    overflow: auto;
+}
+
+.thanks-header {
+    justify-content: center !important;
+}
+
+.thanks-title {
+    font-size: 2rem !important;
+}
+
+.thanks-content {
+    font-size: 1.4rem !important;
+}
+
+.image-delete {
+    margin-top: 2.2rem;
+}
+
+.image-delete i {
+    color: red !important;
+}
+.media-delete {
+    margin-top: 2.2rem;
+}
+
+.media-delete i {
+    color: red !important;
+}
+
+.logo-delete {
+    margin-top: 2.2rem;
+}
+
+.logo-delete i {
+    color: red !important;
+}
+
+.customer-detail {
+    line-height: 30px;
+}
+
+.preview-image {
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}

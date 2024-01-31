@@ -1,0 +1,19 @@
+.header-menu .menu-nav > .menu-item > .menu-link .menu-text {
+    color: #181c32 !important;
+}
+
+.header-menu .menu-nav > .menu-item.menu-item-here > .menu-link {
+    background-color: #0033ff !important;
+}
+.header-menu .menu-nav > .menu-item.menu-item-here > .menu-link .menu-text {
+    color: #fff !important;
+}
+
+body {
+    background-color: white !important;
+}
+
+.card {
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12) !important;
+}
