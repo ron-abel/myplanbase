@@ -5,9 +5,9 @@ SaaS consists of 3 main apps
 - Client Portal : Bulder
 
 ## Sample Urls for portals
-- Super Admin Portal : https://admin.myplanbase.com
+<!-- - Super Admin Portal : https://admin.myplanbase.com
 - Tenant Clint Portal: http://first.myplanbase.com/
-- Tenant Admin Portal: http://first.myplanbase.com/admin
+- Tenant Admin Portal: http://first.myplanbase.com/admin -->
 
 "first" means the tenant name.
 DB
